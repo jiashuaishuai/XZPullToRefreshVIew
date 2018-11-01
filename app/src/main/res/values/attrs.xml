@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--AssetsRefresh 默认为灰色刷新头，白色在我的页面-->
+    <declare-styleable name="GlobalRefresh">
+        <attr name="header_style" format="enum">
+            <enum name="DefaultHeader" value="0" />
+            <enum name="WhiteHeader" value="1" />
+            <enum name="HomePtrHeander" value="2" />
+            <enum name="CurrentProduct" value="3" />f
+        </attr>
+    </declare-styleable>
+</resources>
